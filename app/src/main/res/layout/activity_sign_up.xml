@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smallpng"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="254dp"
+        android:layout_height="123dp"
+        app:srcCompat="@drawable/attachment_69754708_removebg_preview" />
+
+    <EditText
+        android:id="@+id/etIDSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableRight="@drawable/ic_id"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:hint="Driver's ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etName2"
+        android:background="@drawable/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Driver's Name"
+        android:drawableRight="@drawable/driver_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etAddressSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:hint="Driver's Address"
+        android:drawableRight="@drawable/ic_baseline_location_on_24"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCarSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edit"
+        android:hint="Driver's Car Model"
+        android:drawableRight="@drawable/ic_baseline_directions_car_24"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCellSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:hint="Driver's Cell"
+        android:drawableRight="@drawable/ic_baseline_phone_android_24"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSignUp2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Sign Up"
+        app:backgroundTint="#4CAF50" />
+</LinearLayout>

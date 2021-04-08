@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smallpng"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="499dp"
+        android:layout_height="224dp"
+        app:srcCompat="@drawable/attachment_69754708_removebg_preview" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edit"
+        android:drawableRight="@drawable/driver_name"
+        android:hint="Driver's Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCell"
+        android:background="@drawable/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_baseline_phone_android_24"
+        android:hint="Driver's Cell"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCarName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Car Name"
+        android:background="@drawable/edit"
+        android:drawableRight="@drawable/ic_baseline_directions_car_24"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnLogin"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="0dp"
+
+        android:text="login"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="20dp"
+        android:text="Sign-Up"
+        app:backgroundTint="#4CAF50" />
+</LinearLayout>

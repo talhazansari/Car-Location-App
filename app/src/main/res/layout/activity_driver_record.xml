@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smallpng"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DriverRecord">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="Call The Driver"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivPhone"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="#4CAF50"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_baseline_dialer_sip_24" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="Check His Location"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivLocation"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="#4CAF50"
+        app:srcCompat="@drawable/ic_baseline_location_on_24" />
+</LinearLayout>
